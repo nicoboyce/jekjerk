@@ -21,13 +21,14 @@ layout: default
     </h3>
         {{ post.excerpt }}
 </div>
+
+   
+    <div class="topimage">
+    <img src="{{ site.baseurl }}images\{{ post.image }}" />
+    </div>
     {% break %} 
    
     {% endfor %}
-   
-    <div class="topimage">
-    <img src="images/cheers.jpeg" />
-    </div>
   </div>
 </div>
 <br />
