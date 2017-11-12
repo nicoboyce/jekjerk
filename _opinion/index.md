@@ -1,8 +1,9 @@
 ---
 layout: page
-title: It's the truth!
-permalink: /truth/
-collection: truth
+title: Unpopular opinions
+permalink: /opinion
+collection: opinion
+date: 2017-01-01
 ---
 
 lorem ipsum et cetera
