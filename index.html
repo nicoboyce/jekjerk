@@ -12,7 +12,9 @@ layout: default
 
 <div class="container">
   <div style="width:100%;">
-    <div style="width:37%; float:left; margin-left:10%; margin-right:3%;">
+    <div style="width:37%; float:left; margin-left:10%; margin-right:3%; @include mobile {
+    width: 100%;
+  }">
     {% for post in site.[col] reversed %}
     
     <h3>
@@ -22,19 +24,25 @@ layout: default
     {% break %}
     {% endfor %}
     </div>
-    <div style="width:37%; float:right; margin-left:3%; margin-right:10%;">
+    <div style="width:37%; float:right; margin-left:3%; margin-right:10%; @include mobile {
+    width: 100%;
+  }">
     <img src="images/cheers.jpeg" />
     </div>
   </div>
 </div>
 <br />
 
-  <div class="Table" style="width:80%; margin-left:10%; margin-right:10%;">
+  <div class="Table" style="width:80%; margin-left:10%; margin-right:10%; @include mobile {
+    width: 100%;
+  }">
 {% for post in site.[col] reversed %}
 {% if forloop.index > 1 %}
 {% if forloop.index < 5 %}
 
-    <div class="Cell" style="width:20%; margin-left:3%; margin-right:3%;">    
+    <div class="Cell" style="width:20%; margin-left:3%; margin-right:3%; @include mobile {
+    width: 100%;
+  }">    
     <h3>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h3>    
