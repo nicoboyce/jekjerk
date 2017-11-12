@@ -60,6 +60,32 @@ table {
 /**************/
 /* BASE RULES */
 /**************/
+.topstory {
+  width: 37%;
+  float: left;
+  margin-left: 10%;
+  margin-right: 3%;
+}
+@media screen and (max-width: 1000px) {
+  .topstory {
+    width: 80%;
+  }
+}
+
+.topimage {
+  width: 37%;
+  float: right;
+  margin-left: 3%;
+  margin-right: 10%;
+}
+@media screen and (max-width: 1000px) {
+  .topimage {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 .vr {
   width: 2px;
   height: 150px;
@@ -87,10 +113,22 @@ body {
 
 .Table {
   display: table;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.Cell {
-  display: table-cell;
+.block {
+  display: inline-block;
+  margin-right: 10%;
+  width: 20%;
+}
+@media screen and (max-width: 1000px) {
+  .block {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 .container {
@@ -137,12 +175,12 @@ p {
 }
 
 a {
-  color: #dd0000;
+  color: #fd031a;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #dd0000;
+  color: #fd031a;
 }
 
 ul, ol {

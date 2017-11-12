@@ -12,41 +12,41 @@ layout: default
 
 <div class="container">
   <div style="width:100%;">
-    <div style="width:37%; float:left; margin-left:10%; margin-right:3%;">
-    {% for post in site.[col] reversed %}
     
+    {% for post in site.[col] reversed %}
+    <div class="topstory">
     <h3>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h3>
         {{ post.excerpt }}
-    {% break %}
+</div>
+    {% break %} 
+   
     {% endfor %}
-    </div>
-    <div style="width:37%; float:right; margin-left:3%; margin-right:10%;">
+   
+    <div class="topimage">
     <img src="images/cheers.jpeg" />
     </div>
   </div>
 </div>
 <br />
 
-  <div class="Table" style="width:80%; margin-left:10%; margin-right:10%; @include mobile {
-    width: 100%;
-  }">
+<div class="Table">
 {% for post in site.[col] reversed %}
 {% if forloop.index > 1 %}
 {% if forloop.index < 5 %}
 
-    <div class="Cell" style="margin-left:3%; margin-right:3%;">    
+      <div class="block">    
     <h3>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h3>    
-<div class="vr">&nbsp;</div>
-    </div>
+    </h3>
+      </div>
+
 {% endif %}
 {% endif %}
     {% endfor %}
-  </div>
-
+</div>
+<br />
 {% endunless %}
 
 {% endfor %}

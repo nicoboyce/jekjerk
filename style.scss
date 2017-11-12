@@ -14,8 +14,38 @@
 /* BASE RULES */
 /**************/
 
+.topstory {
+width:37%;
+float:left;
+margin-left:10%;
+margin-right:3%;
+  @include mobile {
+    width: 80%;
+  }
+}
 
-.vr {width:2px;height:150px;background-color:#ffffff;position:absolute;top:0px;left:50px;z-index:10;}
+.topimage {
+width:37%;
+float:right;
+margin-left:3%;
+margin-right:10%;
+@include mobile {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+  }
+}
+
+
+.vr {
+width:2px;
+height:150px;
+background-color:#ffffff;
+position:absolute;
+top:0px;
+left:50px
+;z-index:10;
+}
 
 .section {
   margin: 0 10%;
@@ -34,17 +64,20 @@ body {
 
 .Table {
  display: table;
-	width: 80%;
-	@include mobile {
-    width: 100%;
-  }
+width:100%;
+margin-left:10%;
+margin-right:10%;
+
 }
 
-.Cell {
- display: table-cell;
-	width: 22%;
+.block {
+ display: inline-block;
+margin-right:10%;
+	width: 20%;
 	@include mobile {
     width: 100%;
+margin-left:10%;
+margin-right:10%;
   }
 }
 
