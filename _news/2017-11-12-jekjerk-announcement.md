@@ -5,6 +5,7 @@ collection: news
 permalink: /news/jekjerk-announcement
 author: nico
 date: 2017-11-12
+image: jekjerk.png
 ---
 
 Literally some time in the making, Nico has finally gotten around to clearing up his code a bit and putting it out there for public consumption.

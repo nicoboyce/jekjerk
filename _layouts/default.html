@@ -31,10 +31,10 @@
 {% for collection in ordered_collections %}
 {% unless collection.label == 'posts' %}
 {% assign col = collection.label %}
-            <a href="/{{ col }}">{{ col }}</a>
+            <a href="#{{ col }}">{{ col }}</a>
 {% endunless %}
 {% endfor %}
-            <a href="/contact">contact</a>
+            <a href="#contact">contact</a>
           </nav>
         </header>
       </div>
@@ -47,9 +47,12 @@
 <br />
 
     <div class="wrapper-footer">
-      <div class="container">
+      <div class="container" id="contact">
         <footer class="footer">
           {% include svg-icons.html %}
+<div style="float: right;">
+Made by <a href="mailto:nico@bluegf.com">Nico</a> at <a href="http://bluegf.com">BlueGF</a>.
+</div>
         </footer>
       </div>
     </div>
