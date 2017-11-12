@@ -1,8 +1,9 @@
 ---
 layout: page
-title: It's the truth!
-permalink: /truth/
-collection: truth
+title: Sporty McSportface?
+permalink: /sport
+collection: sport
+date: 2017-01-01
 ---
 
 lorem ipsum et cetera
