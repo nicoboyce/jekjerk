@@ -36,9 +36,18 @@ layout: default
 <div class="Table">
 {% for post in site.[col] reversed %}
 {% if forloop.index > 1 %}
-{% if forloop.index < 5 %}
+{% if forloop.index < 4 %}
 
       <div class="block">    
+    <h3>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h3>
+      </div>
+
+{% endif %}
+{% if forloop.index == 4 %}
+
+      <div class="block" style="margin-right:0;">    
     <h3>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h3>

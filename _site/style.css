@@ -138,8 +138,8 @@ body {
 
 .block {
   display: inline-block;
-  margin-right: 10%;
-  width: 20%;
+  margin-right: 12%;
+  width: 25%;
 }
 @media screen and (max-width: 1000px) {
   .block {
