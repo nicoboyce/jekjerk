@@ -5,7 +5,6 @@ layout: default
 {% for collection in ordered_collections %}
 {% unless collection.label == 'posts' %}
 {% assign col = collection.label %}
-<br />
 <div style="margin-top: 70px; margin-left:10%;">
 <h2><i>{{ collection.header }}</i></h2>
 </div>
@@ -48,5 +47,5 @@ layout: default
 </div>
 <br />
 {% endunless %}
-
+<br />
 {% endfor %}
