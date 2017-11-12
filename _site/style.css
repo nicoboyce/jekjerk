@@ -72,6 +72,19 @@ table {
   }
 }
 
+.desktopfix {
+  margin-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .desktopfix {
+    margin-top: 0px;
+  }
+}
+
+.collheader {
+  margin-left: 10%;
+}
+
 .topimage {
   width: 37%;
   float: right;
@@ -117,6 +130,11 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
+@media screen and (max-width: 1000px) {
+  .Table {
+    width: 80%;
+  }
+}
 
 .block {
   display: inline-block;
@@ -125,8 +143,8 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .block {
-    width: 100%;
-    margin-left: 10%;
+    width: 75%;
+    margin-left: 0%;
     margin-right: 10%;
   }
 }
@@ -175,12 +193,12 @@ p {
 }
 
 a {
-  color: #fd031a;
+  color: #000000;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #fd031a;
+  color: #000000;
 }
 
 ul, ol {
@@ -329,7 +347,7 @@ nav {
 }
 nav a {
   margin-left: 2px;
-  color: #333;
+  color: #fd031a;
   text-align: right;
   font-weight: 300;
   letter-spacing: 1px;
@@ -337,7 +355,7 @@ nav a {
 }
 @media screen and (max-width: 1000px) {
   nav a {
-    color: #4183C4;
+    color: #fd031a;
   }
 }
 

@@ -5,8 +5,10 @@ layout: default
 {% for collection in ordered_collections %}
 {% unless collection.label == 'posts' %}
 {% assign col = collection.label %}
-<div style="margin-left:10%;">
-<h2><i>{{ collection.header }}</i></h2>
+<div class="desktopfix">&nbsp;
+</div>
+<div class="collheader">
+<h2 style="color:#fd031a;"><i>{{ collection.header }}</i></h2>
 </div>
 
 <div class="container">

@@ -24,6 +24,17 @@ margin-right:3%;
   }
 }
 
+.desktopfix {
+margin-top:20px;
+@include mobile {
+margin-top:0px;
+}
+}
+
+.collheader {
+margin-left:10%;
+}
+
 .topimage {
 width:37%;
 float:right;
@@ -130,11 +141,11 @@ p {
 }
 
 a {
-  color: #fd031a;
+  color: #000000;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #fd031a;
+    color: #000000;
   }
 }
 
@@ -297,14 +308,14 @@ nav {
 
   a {
     margin-left: 2px;
-    color: $darkGray;
+    color: #fd031a;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
     margin: 0 10px;
 
     @include mobile {
-      color: $blue;
+      color: #fd031a;
     }
   }
 }
