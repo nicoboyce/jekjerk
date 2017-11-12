@@ -16,7 +16,7 @@ authors:
     name: Mr Hyde
     display_name: Hyde
 #    gravatar: numbers
-    email: hyde@somewhere.com
+#    email: hyde@somewhere.com
 #    web: http://somewhere.com
 #    twitter: mrhyde
 #    github: mrhyde
@@ -24,7 +24,7 @@ authors:
     name: Dr Jekyll
     display_name: Jekyll
 #    gravatar: numbers
-    email: jekyll@somewhere.com
+#    email: jekyll@somewhere.com
 #    web: http://somewhere.com
 #    twitter: drjekyll
 #    github: drjekyll
