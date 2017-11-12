@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Rant central
-permalink: /rants/
-collection: rants
+title: Celeb gossip
+permalink: /gossip
+collection: gossip
 date: 2017-01-01
 ---
 
