@@ -34,10 +34,18 @@ body {
 
 .Table {
  display: table;
+	width: 80%;
+	@include mobile {
+    width: 100%;
+  }
 }
 
 .Cell {
  display: table-cell;
+	width: 80%
+	@include mobile {
+    width: 100%;
+  }
 }
 
 .container {
