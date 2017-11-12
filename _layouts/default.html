@@ -31,10 +31,10 @@
 {% for collection in ordered_collections %}
 {% unless collection.label == 'posts' %}
 {% assign col = collection.label %}
-            <a href="#{{ col }}">{{ col }}</a>
+            <a href="#{{ col }}">{{ col | capitalize }}</a>
 {% endunless %}
 {% endfor %}
-            <a href="#contact">contact</a>
+            <a href="#contact">Contact</a>
           </nav>
         </header>
       </div>
