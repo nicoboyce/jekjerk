@@ -12,7 +12,7 @@ description: Tabloid style Jekyll-Now template
 avatar: /images/avatar.png
 
 authors:
-  hyde:
+  nico:
     name: Mr Hyde
     display_name: Hyde
 #    gravatar: numbers
@@ -62,10 +62,10 @@ collections:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: 
+  email: nico@bluegf.com
   facebook: 
   flickr:
-  github: 
+  github: nicoboyce
   instagram: 
   linkedin: 
   pinterest:
