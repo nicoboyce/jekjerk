@@ -71,6 +71,9 @@ body {
   font: 18px/1.4;
   font-family: 'Ubuntu', sans-serif;
   color: $darkGray;
+  a {
+     color: #fd031a;
+}
 }
 
 .Table {
@@ -129,6 +132,9 @@ h2 {
 
 h3 {
   font-size: 20px;
+  a {
+    color: #000000;
+}
 }
 
 h4 {
@@ -141,11 +147,11 @@ p {
 }
 
 a {
-  color: #000000;
+  color: #fd031a;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #000000;
+    color: #fd031a;
   }
 }
 
