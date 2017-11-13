@@ -7,7 +7,7 @@ author: nico
 date: 2017-11-11
 ---
 
-Firstly, be aware that this is merely version {{ jjversion }} and there is a lot more I plan to do before I'm happy with recommending this template to beginners. However, if you're feeling brave...
+Firstly, be aware that this is merely version {{ site.jjversion }} and there is a lot more I plan to do before I'm happy with recommending this template to beginners. However, if you're feeling brave...
 
 Fork [this repo](https://github.com/nicoboyce/nicoboyce.github.io) and fill in all the appropriate information in the _config.yml file.
 
