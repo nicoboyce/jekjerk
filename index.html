@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign ordered_collections = site.collections | sort:"frontpageposition" %}
 {% for collection in ordered_collections %}
 {% unless collection.label == 'posts' %}
