@@ -48,7 +48,7 @@ collections:
     frontpageposition: 1
   gossip:
     output: true
-    header: He said she said
+    header: (content below is just for demo purposes)
     frontpageposition: 2
   opinion:
     output: true
